@@ -20,6 +20,7 @@
 - https://github.com/digital-nomad-cheng/Iris_Landmarks_PyTorch
 - https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting (HUMAN DETECTION)
 - https://github.com/leeys888/ncnn-portrait-segmentation
+- https://github.com/JuZiSYJ/ncnn-picture-enhancement
 
 # OPENCV - MOBILE
 - https://github.com/nihui/opencv-mobile
