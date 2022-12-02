@@ -50,3 +50,6 @@
 # NCNN - STABLE DIFFUSION
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui
 - https://github.com/EdVince/Stable-Diffusion-NCNN
+
+# NCNN - CMAKE
+- https://github.com/zchrissirhcz/cmake_examples
