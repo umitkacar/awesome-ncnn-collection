@@ -17,3 +17,5 @@
 - https://github.com/jixiaozhong/RealSR
 - https://github.com/polarisZhao/PFLD-pytorch
 - https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan
+- https://github.com/digital-nomad-cheng/Iris_Landmarks_PyTorch
+- https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting (HUMAN DETECTION)
