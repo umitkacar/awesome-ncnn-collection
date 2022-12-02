@@ -9,6 +9,8 @@
 # NCNN - Collection
 
 - https://github.com/zchrissirhcz/awesome-ncnn
+- https://github.com/Baiyuetribe/ncnn-models
+
 - https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
 - https://github.com/FeiGeChuanShu/GFPGAN-ncnn
 - https://github.com/xuduo35/unet_mxnet2ncnn/blob/master/ncnn-unet/src/main.cpp
