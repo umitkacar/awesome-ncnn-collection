@@ -46,3 +46,7 @@
 - https://www.zhihu.com/column/c_1320446932913762304
 - https://blog.csdn.net/just_sort/article/details/111403398
 - https://blog.csdn.net/sinat_31425585/category_9312419.html
+
+# NCNN - STABLE DIFFUSION
+- https://github.com/AUTOMATIC1111/stable-diffusion-webui
+- https://github.com/EdVince/Stable-Diffusion-NCNN
