@@ -13,3 +13,4 @@
 - https://github.com/xuduo35/unet_mxnet2ncnn/blob/master/ncnn-unet/src/main.cpp
 - https://github.com/RangiLyu/nanodet
 - https://github.com/CoinCheung/BiSeNet/blob/master/ncnn/segment.cpp
+- https://github.com/jixiaozhong/RealSR
