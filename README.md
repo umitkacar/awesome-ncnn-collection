@@ -19,6 +19,10 @@
 - https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan
 - https://github.com/digital-nomad-cheng/Iris_Landmarks_PyTorch
 - https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting (HUMAN DETECTION)
+- https://github.com/leeys888/ncnn-portrait-segmentation
 
 # OPENCV - MOBILE
 - https://github.com/nihui/opencv-mobile
+
+# NCNN -WEBASSEMBLY
+- https://github.com/nihui/ncnn-webassembly-portrait-segmentation
