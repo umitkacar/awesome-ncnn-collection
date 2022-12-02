@@ -61,3 +61,9 @@
 # NCNN - EDITOR
 - https://github.com/scarsty/ncnn-editor
 - https://github.com/nihui/ncnn-small-board
+
+# NCNN - BAIDU
+- https://baidudownloader.com/checkout/order-received/5239/?key=wc_order_N5FoxYy0KeU0E
+- https://gist.github.com/imneonizer/1e55dfd86274a3bb1de48435b52c5b12
+- FREEDOWNLOAD1GB
+
