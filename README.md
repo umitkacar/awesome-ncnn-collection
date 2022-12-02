@@ -35,3 +35,6 @@
 # NCNN 8 BIT QUANTIZATION
 - https://github.com/Tencent/ncnn/blob/master/docs/how-to-use-and-FAQ/quantized-int8-inference.md
 - https://github.com/BUG1989/caffe-int8-convert-tools
+
+# NCNN - PYTHON WRAPPER
+- https://github.com/Tencent/ncnn/tree/master/python
