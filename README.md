@@ -59,3 +59,4 @@
 
 # NCNN - EDITOR
 - https://github.com/scarsty/ncnn-editor
+- https://github.com/nihui/ncnn-small-board
