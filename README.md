@@ -31,3 +31,6 @@
 # NCNN - SWIFT
 - https://anuragajwani.medium.com/how-to-consume-c-code-in-swift-b4d64a04e989
 - https://github.com/zhuzilin/ncnn-swift
+
+# NCNN 8 BIT QUANTIZATION
+- https://github.com/Tencent/ncnn/blob/master/docs/how-to-use-and-FAQ/quantized-int8-inference.md
