@@ -6,3 +6,9 @@
 - https://github.com/SwiftBrain/awesome-CoreML-models
 
 - https://github.com/PeterL1n/RobustVideoMatting
+
+# NCNN-Collection
+
+- https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
+- https://github.com/FeiGeChuanShu/GFPGAN-ncnn
+- https://github.com/xuduo35/unet_mxnet2ncnn/blob/master/ncnn-unet/src/main.cpp
