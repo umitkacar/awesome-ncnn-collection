@@ -1,4 +1,4 @@
-# CoreML-Collection
+# CoreML - Collection
 
 - https://github.com/tucan9389/SemanticSegmentation-CoreML
 - https://github.com/john-rocky/CoreML-Models#u2net
@@ -6,7 +6,7 @@
 - https://github.com/SwiftBrain/awesome-CoreML-models
 - https://github.com/PeterL1n/RobustVideoMatting
 
-# NCNN-Collection
+# NCNN - Collection
 
 - https://github.com/zchrissirhcz/awesome-ncnn
 - https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
@@ -24,5 +24,9 @@
 # OPENCV - MOBILE
 - https://github.com/nihui/opencv-mobile
 
-# NCNN -WEBASSEMBLY
+# NCNN - WEBASSEMBLY
 - https://github.com/nihui/ncnn-webassembly-portrait-segmentation
+
+# NCNN - SWIFT
+- https://anuragajwani.medium.com/how-to-consume-c-code-in-swift-b4d64a04e989
+- https://github.com/zhuzilin/ncnn-swift
