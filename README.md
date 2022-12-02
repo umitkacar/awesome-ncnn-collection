@@ -56,6 +56,7 @@
 
 # INFERENCE HELPER
 - https://github.com/iwatake2222/InferenceHelper
+- https://github.com/iwatake2222/InferenceHelper_Sample
 
 # NCNN - EDITOR
 - https://github.com/scarsty/ncnn-editor
