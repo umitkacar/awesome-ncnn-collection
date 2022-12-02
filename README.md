@@ -39,3 +39,9 @@
 
 # NCNN - PYTHON WRAPPER
 - https://github.com/Tencent/ncnn/tree/master/python
+
+# NCNN - UNDERSTANDING
+- https://github.com/Zhengtq/ncnn_breakdown
+- https://www.zhihu.com/column/c_1320446932913762304
+- https://blog.csdn.net/just_sort/article/details/111403398
+- https://blog.csdn.net/sinat_31425585/category_9312419.html
