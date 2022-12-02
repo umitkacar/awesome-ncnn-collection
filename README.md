@@ -53,3 +53,6 @@
 
 # NCNN - CMAKE
 - https://github.com/zchrissirhcz/cmake_examples
+
+# INFERENCE HELPER
+- https://github.com/iwatake2222/InferenceHelper
