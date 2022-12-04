@@ -13,6 +13,7 @@
 - https://github.com/Stability-AI/stablediffusion [1]
 - https://huggingface.co/CompVis/stable-diffusion-v1-4 [2]
 - https://github.com/runwayml/stable-diffusion
+- https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 # NCNN - Collection
 
