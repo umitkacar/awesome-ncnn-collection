@@ -5,6 +5,9 @@
 - https://github.com/likedan/Awesome-CoreML-Models
 - https://github.com/SwiftBrain/awesome-CoreML-models
 - https://github.com/PeterL1n/RobustVideoMatting
+- https://coremltools.readme.io/docs/pytorch-conversion
+- https://github.com/hollance/CoreMLHelpers
+- https://developer.apple.com/machine-learning/api/
 
 # CoreML - Stable Diffusion
 
