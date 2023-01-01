@@ -8,6 +8,7 @@
 - https://coremltools.readme.io/docs/pytorch-conversion
 - https://github.com/hollance/CoreMLHelpers
 - https://developer.apple.com/machine-learning/api/
+- https://github.com/vladimir-chernykh/coreml-performance
 
 # CoreML - Stable Diffusion
 
