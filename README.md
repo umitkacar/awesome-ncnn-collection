@@ -21,6 +21,9 @@
 
 # NCNN - Collection
 
+- https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/tree/master/ncnn (NICE)
+- https://github.com/daquexian/onnx-simplifier (NICE)
+- https://convertmodel.com/?tdsourcetag=s_pctim_aiomsg (NICE)
 - https://github.com/zchrissirhcz/awesome-ncnn (NICE)
 - https://github.com/Baiyuetribe/ncnn-models (NICE)
 - https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
