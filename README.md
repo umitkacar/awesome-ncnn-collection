@@ -21,6 +21,7 @@
 
 # NCNN - Collection
 
+- https://github.com/cmdbug/YOLOv5_NCNN
 - https://github.com/FeiGeChuanShu/yolov5-seg-ncnn
 - https://github.com/nihui/ncnn-android-squeezenet 
 - https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/tree/master/ncnn (NICE)
