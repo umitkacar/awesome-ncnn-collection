@@ -20,6 +20,7 @@
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 # NCNN - Collection
+- https://github.com/FeiGeChuanShu/ncnn-android-yolov6
 - https://github.com/DataXujing/ncnn_android_yolov6
 - https://github.com/DefTruth/lite.ai.toolkit
 - https://github.com/jizhishutong/YOLOU
