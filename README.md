@@ -20,6 +20,8 @@
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 # NCNN - Collection
+
+## YOLO
 - https://github.com/triple-Mu/YOLOv8-TensorRT
 - https://github.com/FeiGeChuanShu/ncnn-android-yolov8/issues/1
 - https://github.com/FeiGeChuanShu/ncnn-android-yolov6
@@ -29,7 +31,16 @@
 - https://github.com/meituan/YOLOv6
 - https://github.com/cmdbug/YOLOv5_NCNN
 - https://github.com/FeiGeChuanShu/yolov5-seg-ncnn
-- https://github.com/nihui/ncnn-android-squeezenet 
+
+## IMAGE CLASSIFICATION
+- https://github.com/nihui/ncnn-android-squeezenet
+- https://github.com/Revo-Future/ncnn_mobileNet
+- https://github.com/linguanghan/ncnn_mobilenetv2_andriod
+
+## IMAGE SEGMENTATION
+- https://github.com/leeys888/ncnn-portrait-segmentation
+
+## OTHERS
 - https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/tree/master/ncnn (NICE)
 - https://github.com/daquexian/onnx-simplifier (NICE)
 - https://convertmodel.com/?tdsourcetag=s_pctim_aiomsg (NICE)
@@ -45,7 +56,6 @@
 - https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan
 - https://github.com/digital-nomad-cheng/Iris_Landmarks_PyTorch
 - https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting (HUMAN DETECTION)
-- https://github.com/leeys888/ncnn-portrait-segmentation
 - https://github.com/JuZiSYJ/ncnn-picture-enhancement
 
 # OPENCV - MOBILE
