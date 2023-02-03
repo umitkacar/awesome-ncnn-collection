@@ -32,6 +32,9 @@
 - https://github.com/cmdbug/YOLOv5_NCNN
 - https://github.com/FeiGeChuanShu/yolov5-seg-ncnn
 
+## IMAGE DETECTION
+- https://github.com/RangiLyu/nanodet
+
 ## IMAGE CLASSIFICATION
 - https://github.com/nihui/ncnn-android-squeezenet
 - https://github.com/Revo-Future/ncnn_mobileNet
@@ -39,24 +42,27 @@
 
 ## IMAGE SEGMENTATION
 - https://github.com/leeys888/ncnn-portrait-segmentation
+- https://github.com/xuduo35/unet_mxnet2ncnn/blob/master/ncnn-unet/src/main.cpp
+- https://github.com/CoinCheung/BiSeNet/blob/master/ncnn/segment.cpp
+
+
+## GANs
+- https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan
+- https://github.com/jixiaozhong/RealSR
+- https://github.com/JuZiSYJ/ncnn-picture-enhancement
+- https://github.com/FeiGeChuanShu/GFPGAN-ncnn
+
+## BIOMETRICS
+- https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
+- https://github.com/digital-nomad-cheng/Iris_Landmarks_PyTorch
+- https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting (HUMAN DETECTION)
 
 ## OTHERS
-- https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/tree/master/ncnn (NICE)
 - https://github.com/daquexian/onnx-simplifier (NICE)
 - https://convertmodel.com/?tdsourcetag=s_pctim_aiomsg (NICE)
 - https://github.com/zchrissirhcz/awesome-ncnn (NICE)
 - https://github.com/Baiyuetribe/ncnn-models (NICE)
-- https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
-- https://github.com/FeiGeChuanShu/GFPGAN-ncnn
-- https://github.com/xuduo35/unet_mxnet2ncnn/blob/master/ncnn-unet/src/main.cpp
-- https://github.com/RangiLyu/nanodet
-- https://github.com/CoinCheung/BiSeNet/blob/master/ncnn/segment.cpp
-- https://github.com/jixiaozhong/RealSR
 - https://github.com/polarisZhao/PFLD-pytorch
-- https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan
-- https://github.com/digital-nomad-cheng/Iris_Landmarks_PyTorch
-- https://github.com/FeiGeChuanShu/ncnn_Android_RobustVideoMatting (HUMAN DETECTION)
-- https://github.com/JuZiSYJ/ncnn-picture-enhancement
 
 # OPENCV - MOBILE
 - https://github.com/nihui/opencv-mobile
