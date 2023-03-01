@@ -35,6 +35,7 @@
 
 ## IMAGE DETECTION
 - https://github.com/RangiLyu/nanodet
+- https://github.com/nihui/ncnn-android-nanodet
 
 ## IMAGE CLASSIFICATION
 - https://github.com/nihui/ncnn-android-squeezenet
