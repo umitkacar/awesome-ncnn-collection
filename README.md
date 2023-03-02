@@ -21,6 +21,8 @@
 
 # NCNN - Collection
 
+- https://gitee.com/
+
 ## YOLO
 - https://github.com/tinyvision/DAMO-YOLO
 - https://github.com/triple-Mu/YOLOv8-TensorRT
