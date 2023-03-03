@@ -24,6 +24,7 @@
 - https://gitee.com/
 
 ## YOLO
+- https://zhuanlan.zhihu.com/p/606536868 (YOLOv8 - YOLOv5)
 - https://github.com/DataXujing/ncnn_android_yolov6#1%E6%A8%A1%E5%9E%8B%E8%BD%ACncnn (YOLOv6-NCNN)
 - https://github.com/tinyvision/DAMO-YOLO
 - https://github.com/triple-Mu/YOLOv8-TensorRT
