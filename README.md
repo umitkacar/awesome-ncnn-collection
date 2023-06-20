@@ -22,6 +22,7 @@
 # NCNN - Collection
 
 - https://gitee.com/
+- https://github.com/FeiGeChuanShu/ncnn_Android_blazeface
 
 ## YOLO
 - https://zhuanlan.zhihu.com/p/606536868 (YOLOv8 - YOLOv5)
