@@ -3,7 +3,9 @@
 - https://gitee.com/
 - https://github.com/FeiGeChuanShu/ncnn_Android_blazeface
 
-## YOLO
+## IMAGE DETECTION
+
+### YOLO
 - https://zhuanlan.zhihu.com/p/606536868 (YOLOv8 - YOLOv5)
 - https://github.com/DataXujing/ncnn_android_yolov6#1%E6%A8%A1%E5%9E%8B%E8%BD%ACncnn (YOLOv6-NCNN)
 - https://github.com/tinyvision/DAMO-YOLO
@@ -17,7 +19,7 @@
 - https://github.com/cmdbug/YOLOv5_NCNN
 - https://github.com/FeiGeChuanShu/yolov5-seg-ncnn
 
-## IMAGE DETECTION
+### NANODET
 - https://github.com/RangiLyu/nanodet
 - https://github.com/nihui/ncnn-android-nanodet
 
@@ -30,7 +32,6 @@
 - https://github.com/leeys888/ncnn-portrait-segmentation
 - https://github.com/xuduo35/unet_mxnet2ncnn/blob/master/ncnn-unet/src/main.cpp
 - https://github.com/CoinCheung/BiSeNet/blob/master/ncnn/segment.cpp
-
 
 ## GANs
 - https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan
