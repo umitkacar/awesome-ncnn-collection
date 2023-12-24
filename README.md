@@ -1,24 +1,3 @@
-# CoreML - Collection
-
-- https://github.com/tucan9389/SemanticSegmentation-CoreML
-- https://github.com/john-rocky/CoreML-Models#u2net
-- https://github.com/likedan/Awesome-CoreML-Models
-- https://github.com/SwiftBrain/awesome-CoreML-models
-- https://github.com/PeterL1n/RobustVideoMatting
-- https://coremltools.readme.io/docs/pytorch-conversion
-- https://github.com/hollance/CoreMLHelpers
-- https://developer.apple.com/machine-learning/api/
-- https://github.com/vladimir-chernykh/coreml-performance
-
-# CoreML - Stable Diffusion
-
-- https://github.com/apple/ml-stable-diffusion
-- https://huggingface.co/stabilityai/stable-diffusion-2-base [1]
-- https://github.com/Stability-AI/stablediffusion [1]
-- https://huggingface.co/CompVis/stable-diffusion-v1-4 [2]
-- https://github.com/runwayml/stable-diffusion
-- https://github.com/AUTOMATIC1111/stable-diffusion-webui
-
 # NCNN - Collection
 
 - https://gitee.com/
