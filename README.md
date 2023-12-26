@@ -3,6 +3,9 @@
 - https://gitee.com/
 - https://github.com/FeiGeChuanShu/ncnn_Android_blazeface
 
+## MOBILE - ANDROID
+- https://github.com/wkt/YoloMobile
+
 ## IMAGE DETECTION
 
 ### YOLO
