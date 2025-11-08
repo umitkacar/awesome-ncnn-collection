@@ -1,0 +1,232 @@
+# Pre-commit hooks configuration
+# See https://pre-commit.com for more information
+
+default_language_version:
+  python: python3.11
+
+default_stages: [commit, push]
+
+fail_fast: false
+
+repos:
+  # ============================================================================
+  # General Pre-commit Hooks
+  # ============================================================================
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      # Filesystem checks
+      - id: check-case-conflict
+        name: Check for case conflicts
+      - id: check-symlinks
+        name: Check for broken symlinks
+      - id: destroyed-symlinks
+        name: Check for destroyed symlinks
+
+      # Git checks
+      - id: check-merge-conflict
+        name: Check for merge conflicts
+      - id: check-added-large-files
+        name: Check for large files
+        args: [--maxkb=1000]
+      - id: forbid-new-submodules
+        name: Forbid new submodules
+
+      # File format checks
+      - id: check-yaml
+        name: Check YAML syntax
+        args: [--safe]
+      - id: check-toml
+        name: Check TOML syntax
+      - id: check-json
+        name: Check JSON syntax
+      - id: check-xml
+        name: Check XML syntax
+
+      # Python checks
+      - id: check-ast
+        name: Check Python AST
+      - id: check-builtin-literals
+        name: Check builtin literals
+      - id: check-docstring-first
+        name: Check docstring first
+      - id: debug-statements
+        name: Check for debug statements
+      - id: name-tests-test
+        name: Check test naming
+        args: [--pytest-test-first]
+
+      # File cleanup
+      - id: trailing-whitespace
+        name: Trim trailing whitespace
+        args: [--markdown-linebreak-ext=md]
+      - id: end-of-file-fixer
+        name: Fix end of files
+      - id: mixed-line-ending
+        name: Fix mixed line endings
+        args: [--fix=lf]
+
+      # Security
+      - id: detect-private-key
+        name: Detect private keys
+
+  # ============================================================================
+  # Ruff - Fast Python Linter & Formatter
+  # ============================================================================
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.2.1
+    hooks:
+      # Linter
+      - id: ruff
+        name: Run Ruff linter
+        args: [--fix, --exit-non-zero-on-fix]
+        types_or: [python, pyi, jupyter]
+
+      # Formatter
+      - id: ruff-format
+        name: Run Ruff formatter
+        types_or: [python, pyi, jupyter]
+
+  # ============================================================================
+  # Black - Python Code Formatter
+  # ============================================================================
+  - repo: https://github.com/psf/black
+    rev: 24.1.1
+    hooks:
+      - id: black
+        name: Format code with Black
+        language_version: python3.11
+        args: [--line-length=100]
+
+      - id: black-jupyter
+        name: Format Jupyter notebooks with Black
+        language_version: python3.11
+        args: [--line-length=100]
+
+  # ============================================================================
+  # MyPy - Static Type Checker
+  # ============================================================================
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        name: Check types with MyPy
+        additional_dependencies:
+          - types-requests
+          - types-PyYAML
+        args:
+          - --strict
+          - --show-error-codes
+          - --pretty
+        exclude: ^(tests/|docs/)
+
+  # ============================================================================
+  # Security & Code Quality
+  # ============================================================================
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.6
+    hooks:
+      - id: bandit
+        name: Check security with Bandit
+        args: [-c, pyproject.toml]
+        additional_dependencies: ["bandit[toml]"]
+        exclude: ^tests/
+
+  # ============================================================================
+  # Documentation
+  # ============================================================================
+  - repo: https://github.com/pycqa/pydocstyle
+    rev: 6.3.0
+    hooks:
+      - id: pydocstyle
+        name: Check docstrings with pydocstyle
+        additional_dependencies: [toml]
+        exclude: ^(tests/|docs/)
+
+  # ============================================================================
+  # Markdown & Documentation
+  # ============================================================================
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.39.0
+    hooks:
+      - id: markdownlint
+        name: Lint Markdown files
+        args: [--fix]
+        exclude: ^\.github/
+
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.10.0
+    hooks:
+      - id: python-check-blanket-noqa
+        name: Check blanket noqa
+      - id: python-check-blanket-type-ignore
+        name: Check blanket type ignore
+      - id: python-no-eval
+        name: Check for eval()
+      - id: python-no-log-warn
+        name: Check for log.warn
+      - id: python-use-type-annotations
+        name: Check for type annotations
+      - id: rst-backticks
+        name: Check RST backticks
+      - id: rst-directive-colons
+        name: Check RST directive colons
+      - id: rst-inline-touching-normal
+        name: Check RST inline touching normal
+      - id: text-unicode-replacement-char
+        name: Check for unicode replacement chars
+
+  # ============================================================================
+  # YAML Formatting
+  # ============================================================================
+  - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+    rev: v2.12.0
+    hooks:
+      - id: pretty-format-yaml
+        name: Format YAML files
+        args: [--autofix, --indent, '2']
+
+  # ============================================================================
+  # Secrets Detection
+  # ============================================================================
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+      - id: detect-secrets
+        name: Detect secrets
+        args: [--baseline, .secrets.baseline]
+        exclude: package.lock.json
+
+  # ============================================================================
+  # Shell Scripts
+  # ============================================================================
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.6
+    hooks:
+      - id: shellcheck
+        name: Check shell scripts with shellcheck
+
+  # ============================================================================
+  # Dependency Security Check
+  # ============================================================================
+  - repo: https://github.com/Lucas-C/pre-commit-hooks-safety
+    rev: v1.3.3
+    hooks:
+      - id: python-safety-dependencies-check
+        name: Check Python dependencies for security issues
+        files: pyproject.toml
+
+# ============================================================================
+# CI Configuration
+# ============================================================================
+ci:
+  autofix_commit_msg: |
+    [pre-commit.ci] auto fixes from pre-commit hooks
+
+    for more information, see https://pre-commit.ci
+  autofix_prs: true
+  autoupdate_branch: ''
+  autoupdate_commit_msg: '[pre-commit.ci] pre-commit autoupdate'
+  autoupdate_schedule: weekly
+  skip: []
+  submodules: false
