@@ -70,6 +70,7 @@
 <td width="50%">
 
 #### 🔧 Main Repository
+
 - ⭐ [**Tencent/ncnn**](https://github.com/Tencent/ncnn)
   - ![Stars](https://img.shields.io/github/stars/Tencent/ncnn?style=social)
   - 22k+ stars - Official framework
@@ -79,6 +80,7 @@
 <td width="50%">
 
 #### 📖 Documentation
+
 - 📘 [**Official Docs**](https://ncnn.readthedocs.io/en/latest/)
 - 📙 [**DocsForge**](https://ncnn.docsforge.com/)
 - 🌋 [**Vulkan FAQ**](https://github.com/Tencent/ncnn/wiki/FAQ-ncnn-vulkan)
@@ -89,6 +91,7 @@
 </table>
 
 ### 🐍 Python Integration
+
 - 🔗 [**NCNN Python Wrapper**](https://github.com/Tencent/ncnn/tree/master/python) - Official Python bindings
 
 ---
@@ -117,6 +120,7 @@
 | 🤖 [**ROS 2 Support**](https://github.com/mlim97/yolo_ros) | ROS | 🔧 Robotics | YOLOv8/v9/v10/v11 |
 
 ### 🎖️ YOLOv10 & YOLOv9 (2024)
+
 - 📊 [**Performance Comparison**](https://www.ultralytics.com/blog/comparing-ultralytics-yolo11-vs-previous-yolo-models) - v8/v9/v10/v11 benchmarks
 
 ### 🥈 YOLOv8 & Earlier Versions
@@ -134,6 +138,7 @@
 </details>
 
 ### 🌟 Other YOLO Variants
+
 - 🏢 [**YOLOv6 Official**](https://github.com/meituan/YOLOv6) - Meituan's production YOLO
 - 🏭 [**DAMO-YOLO**](https://github.com/tinyvision/DAMO-YOLO) - Industrial applications
 - 🌐 [**YOLO-Universal**](https://github.com/jizhishutong/YOLOU)
@@ -143,15 +148,18 @@
 ## 🎯 Object Detection
 
 ### 🌟 NanoDet (Lightweight Detection)
+>
 > ⚡ **Super fast** and **ultra-lightweight** anchor-free detection
 
 - 🚀 [**NanoDet**](https://github.com/RangiLyu/nanodet) - ![Stars](https://img.shields.io/github/stars/RangiLyu/nanodet?style=social)
 - 📱 [**Android Demo**](https://github.com/nihui/ncnn-android-nanodet) - Official NCNN implementation
 
 ### 👤 BlazeFace
+
 - 🔥 [**BlazeFace Android**](https://github.com/FeiGeChuanShu/ncnn_Android_blazeface) - Google's face detection
 
 ### 🎁 General Detection
+
 - 🎁 [**Lite.AI.ToolKit**](https://github.com/DefTruth/lite.ai.toolkit) - Comprehensive AI toolkit
 - 📱 [**YOLO Mobile**](https://github.com/wkt/YoloMobile) - Mobile-optimized YOLO
 
@@ -164,6 +172,7 @@
 <td>
 
 #### 🧠 Classic Models
+
 - 🔬 [**SqueezeNet**](https://github.com/nihui/ncnn-android-squeezenet)
 - 📱 [**MobileNet**](https://github.com/Revo-Future/ncnn_mobileNet)
 - 🚀 [**MobileNetV2**](https://github.com/linguanghan/ncnn_mobilenetv2_andriod)
@@ -172,6 +181,7 @@
 <td>
 
 #### 📊 Features
+
 - ✅ Lightweight architectures
 - ⚡ Fast inference
 - 📱 Mobile-optimized
@@ -214,6 +224,7 @@
 <td width="50%">
 
 ##### 🖼️ Real-ESRGAN Series
+
 - 🎯 [**Real-ESRGAN Vulkan**](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
   - GPU accelerated
   - 4K+ upscaling
@@ -228,6 +239,7 @@
 <td width="50%">
 
 ##### 🎌 Waifu2x & Anime
+
 - 💎 [**Waifu2x GUI**](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
   - Video/Image upscaling
   - Frame interpolation
@@ -243,6 +255,7 @@
 </table>
 
 #### 🔬 Advanced Models
+
 - 🌟 [**SRMD Vulkan**](https://github.com/nihui/srmd-ncnn-vulkan) - Super-resolution
 - 📸 [**RealSR**](https://github.com/jixiaozhong/RealSR) - Real-world SR
 - 🎨 [**Picture Enhancement**](https://github.com/JuZiSYJ/ncnn-picture-enhancement) - General enhancement
@@ -274,6 +287,7 @@
   - Mobile-optimized
 
 ### 👁️ Other Biometrics
+
 - 🎯 [**Iris Landmarks**](https://github.com/digital-nomad-cheng/Iris_Landmarks_PyTorch) - Eye tracking
 
 ---
@@ -296,6 +310,7 @@
 <td width="33%">
 
 **🔥 RTMPose**
+
 - Snapdragon 865
 - NCNN optimized
 - High accuracy
@@ -304,6 +319,7 @@
 <td width="33%">
 
 **🎯 YOLOv8-Pose**
+
 - Real-time
 - Multi-person
 - Edge devices
@@ -312,6 +328,7 @@
 <td width="33%">
 
 **⚡ BlazePose**
+
 - MediaPipe based
 - 33 keypoints
 - Mobile-first
@@ -321,11 +338,13 @@
 </table>
 
 #### 📚 Additional Models
+
 - 🏃 **MoveNet** - Efficient single/multi-pose
 - 🎭 **PoseNet** - Classic pose estimation
 - 📱 **MobileNet Pose** - Lightweight variant
 
 #### 📊 Resources
+
 - 📈 [**Best Models 2024**](https://www.posetracker.com/news/best-human-pose-estimation-models-for-mobile-app-in-2024) - Comprehensive comparison
 
 ---
@@ -343,6 +362,7 @@
 </div>
 
 #### 🚀 Main Repository
+
 - 🎯 [**k2-fsa/sherpa-ncnn**](https://github.com/k2-fsa/sherpa-ncnn) ![Stars](https://img.shields.io/github/stars/k2-fsa/sherpa-ncnn?style=social)
 
 #### ✨ Key Features
@@ -352,6 +372,7 @@
 <td width="50%">
 
 **📱 Platform Support**
+
 - ✅ iOS
 - ✅ Android
 - ✅ Linux
@@ -365,6 +386,7 @@
 <td width="50%">
 
 **🌍 Language Support**
+
 - 🇨🇳 Chinese
 - 🇺🇸 English
 - 🇯🇵 Japanese
@@ -376,12 +398,14 @@
 </table>
 
 #### 🎯 Features
+
 - ⚡ Real-time recognition
 - 🔇 Voice Activity Detection (VAD)
 - 🚫 No internet required
 - 🎓 Next-gen Kaldi based
 
 #### 📖 Documentation
+
 - 📚 [**Complete Docs**](https://k2-fsa.github.io/sherpa/ncnn/) - Pre-trained models & guides
 
 ---
@@ -406,6 +430,7 @@
 | 🌐 **WebAssembly OCR** | Multi | Browser | Browser-based |
 
 #### 📊 Resources
+
 - 📈 [**Top 10 OCR Models 2025**](https://www.kdnuggets.com/10-awesome-ocr-models-for-2025)
 
 ---
@@ -431,6 +456,7 @@
   - Anime & video support
 
 #### ✨ Features
+
 - 🎯 Optical flow estimation
 - 🎬 Video frame interpolation
 - ⚡ GPU accelerated
@@ -456,6 +482,7 @@
 <td>
 
 **🎨 Stable Diffusion NCNN**
+
 - [**EdVince/SD-NCNN**](https://github.com/EdVince/Stable-Diffusion-NCNN)
 - ✅ txt2img support
 - ✅ img2img support
@@ -466,6 +493,7 @@
 <td>
 
 **🖌️ Features**
+
 - 🎯 512x512 generation
 - ⚡ Optimized inference
 - 💾 Low memory usage
@@ -476,6 +504,7 @@
 </table>
 
 #### 📚 Reference
+
 - 🌐 [**SD WebUI**](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Desktop reference
 
 ---
@@ -500,6 +529,7 @@
 | ⭐ [**awesome-ncnn**](https://github.com/zchrissirhcz/awesome-ncnn) | Curated | ✅ | ![](https://img.shields.io/github/stars/zchrissirhcz/awesome-ncnn?style=social) |
 
 #### 🌐 Platform Support
+
 - 💻 Windows, Mac, Linux
 - 📱 Android, iOS
 - 🌐 WebAssembly
@@ -515,6 +545,7 @@
 <summary>📱 <b>Click to expand Android resources</b></summary>
 
 #### 📚 Comprehensive Guides
+
 - 📖 [**PyTorch → NCNN Android**](https://medium.com/@freshtechyy/deployment-of-pytorch-model-using-ncnn-for-mobile-devices-part-2-ff28e9aaf0d6)
   - Complete deployment tutorial
   - NDK setup guide
@@ -526,6 +557,7 @@
   - Best practices
 
 #### 🔧 Requirements
+
 - ✅ Android NDK
 - ✅ CMake 3.10+
 - ✅ OpenCV Android (optional)
@@ -538,6 +570,7 @@
 <summary>📱 <b>Click to expand iOS resources</b></summary>
 
 #### 📚 Swift Integration
+
 - 🔗 [**C++ in Swift Guide**](https://anuragajwani.medium.com/how-to-consume-c-code-in-swift-b4d64a04e989)
   - Bridging header setup
   - Framework integration
@@ -549,6 +582,7 @@
   - Sample apps
 
 #### ⚙️ Configuration
+
 - ✅ Xcode 12+
 - ✅ iOS 11+
 - ✅ Vulkan/Metal support
@@ -566,6 +600,7 @@
   - Real-time processing
 
 #### 🚀 Features
+
 - ✅ Zero installation
 - ✅ Privacy-preserving
 - ✅ Cross-browser support
@@ -595,6 +630,7 @@
 ### 🎯 INT8 Quantization
 
 #### 📚 Official Resources
+
 - 📖 [**INT8 Inference Guide**](https://github.com/Tencent/ncnn/blob/master/docs/how-to-use-and-FAQ/quantized-int8-inference.md)
   - Post-training quantization
   - Calibration workflow
@@ -607,6 +643,7 @@
 <td width="50%">
 
 **🔧 Conversion Tools**
+
 - ⚡ [**caffe-int8-tools**](https://github.com/BUG1989/caffe-int8-convert-tools)
 - 🎓 [**ncnnqat**](https://github.com/ChenShisen/ncnnqat) - QAT support
 
@@ -614,6 +651,7 @@
 <td width="50%">
 
 **📊 Benefits**
+
 - ⚡ 4× faster inference
 - 💾 4× smaller models
 - 📱 Lower memory usage
@@ -626,10 +664,12 @@
 ### 🌋 Vulkan Optimization
 
 #### 📚 Resources
+
 - 🔥 [**NCNN Machine Vision 2025**](https://www.unitxlabs.com/resources/ncnn-machine-vision-system-2025/)
 - ⚙️ [**Vulkan Optimization Notes**](https://github.com/Tencent/ncnn/wiki/vulkan-notes)
 
 #### ✨ Key Features
+
 - ✅ GPU acceleration
 - ✅ Cross-platform
 - ✅ Memory optimization
@@ -646,6 +686,7 @@
 <td width="50%">
 
 #### 🔧 Conversion Tools
+
 - ⚡ [**ONNX Simplifier**](https://github.com/daquexian/onnx-simplifier)
   - Model optimization
   - Graph simplification
@@ -660,6 +701,7 @@
 <td width="50%">
 
 #### 🎨 Visual Tools
+
 - 🖼️ [**ncnn-editor**](https://github.com/scarsty/ncnn-editor)
   - Visual model editing
   - Graph visualization
@@ -711,6 +753,7 @@
 <td width="50%">
 
 #### 🇺🇸 English Resources
+
 - 📘 [**NCNN Wiki**](https://github.com/Tencent/ncnn/wiki)
 - 🔨 [**How to Build**](https://github.com/Tencent/ncnn/wiki/how-to-build)
 - 📖 [**PyTorch → NCNN Part 1**](https://medium.com/@freshtechyy/deployment-of-pytorch-model-using-ncnn-bceff5d846b0)
@@ -722,6 +765,7 @@
 <td width="50%">
 
 #### 🇨🇳 Chinese Resources
+
 - 🔬 [**ncnn_breakdown**](https://github.com/Zhengtq/ncnn_breakdown)
 - 📝 [**Zhihu Column**](https://www.zhihu.com/column/c_1320446932913762304)
 - 📚 [**CSDN Analysis**](https://blog.csdn.net/just_sort/article/details/111403398)
@@ -788,6 +832,7 @@
 <td width="33%" align="center">
 
 **🔬 embedded-ai.bench**
+
 - [Benchmark Suite](https://github.com/AI-performance/embedded-ai.bench)
 - NCNN vs TNN vs MNN
 - TFLite comparison
@@ -796,6 +841,7 @@
 <td width="33%" align="center">
 
 **📱 Mobile AI Bench**
+
 - [Xiaomi Benchmark](https://github.com/XiaoMi/mobile-ai-bench)
 - Real device testing
 - Production workloads
@@ -804,6 +850,7 @@
 <td width="33%" align="center">
 
 **⚡ vs TensorRT**
+
 - [Detailed Comparison](https://medium.com/@reza_mahmoudi/the-difference-between-ncnn-and-tensorrt-9e869390fe00)
 - Use case analysis
 - Performance metrics
@@ -831,6 +878,7 @@
 <td>
 
 #### 📊 Performance Studies
+
 - 📈 [**YOLOv8/v9/v10/v11 Comparison**](https://www.mdpi.com/2076-3417/15/6/3154)
   - Comprehensive evaluation
   - Multiple datasets
@@ -845,6 +893,7 @@
 <td>
 
 #### 🔥 Application Papers
+
 - 🚨 [**Smoke/Fire Detection**](https://www.mdpi.com/2571-6255/8/1/26)
   - YOLOv9/v10/v11
   - Real-world testing
@@ -879,6 +928,7 @@
 We welcome contributions! 🎉
 
 **How to contribute:**
+
 - ⭐ Star this repository
 - 🍴 Fork and submit PRs
 - 🐛 Report issues

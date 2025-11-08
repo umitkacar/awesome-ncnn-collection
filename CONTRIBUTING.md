@@ -188,17 +188,20 @@ chore: update dependencies
 ### Pull Request Process
 
 1. **Create a branch** from `main`:
+
    ```bash
    git checkout -b feature/your-feature-name
    ```
 
 2. **Make your changes** and commit:
+
    ```bash
    git add .
    git commit -m "feat: your feature description"
    ```
 
 3. **Push to your fork**:
+
    ```bash
    git push origin feature/your-feature-name
    ```
@@ -219,9 +222,11 @@ chore: update dependencies
 We follow [PEP 8](https://pep8.org/) with these specific guidelines:
 
 #### Line Length
+
 - Maximum 100 characters (enforced by Black and Ruff)
 
 #### Imports
+
 ```python
 # Standard library
 import os
@@ -236,6 +241,7 @@ from awesome_ncnn import utils
 ```
 
 #### Type Hints
+
 ```python
 def process_data(items: list[str]) -> dict[str, int]:
     """Process items and return counts."""
@@ -243,6 +249,7 @@ def process_data(items: list[str]) -> dict[str, int]:
 ```
 
 #### Docstrings
+
 Use Google-style docstrings:
 
 ```python

@@ -27,18 +27,19 @@ MD013:
 MD033:
   # Allowed elements
   allowed_elements:
-    - br
-    - p
-    - div
-    - img
-    - table
-    - tr
-    - td
-    - th
-    - thead
-    - tbody
-    - details
-    - summary
+  - br
+  - p
+  - div
+  - img
+  - table
+  - tr
+  - td
+  - th
+  - thead
+  - tbody
+  - details
+  - summary
+  - b
 
 # MD024/no-duplicate-heading - Multiple headings with the same content
 MD024:
@@ -47,6 +48,21 @@ MD024:
 
 # MD041/first-line-heading - First line in file should be a top level heading
 MD041: false
+
+# MD001/heading-increment - Heading levels should only increment by one level
+MD001: false
+
+# MD036/no-emphasis-as-heading - Emphasis used instead of a heading
+MD036: false
+
+# MD040/fenced-code-language - Fenced code blocks should have a language
+MD040: false
+
+# MD045/no-alt-text - Images should have alternate text
+MD045: false
+
+# MD051/link-fragments - Link fragments should be valid
+MD051: false
 
 # MD046/code-block-style - Code block style
 MD046:

@@ -166,6 +166,7 @@ hatch run all                   # Run all checks + tests
 **Configuration:** `[tool.ruff]` in `pyproject.toml`
 
 Features:
+
 - ⚡ 10-100x faster than traditional linters
 - 🎯 Replaces Flake8, isort, pydocstyle, pyupgrade
 - 🔧 Auto-fixes many issues
@@ -190,6 +191,7 @@ ruff check --select E,F .
 **Configuration:** `[tool.black]` in `pyproject.toml`
 
 Features:
+
 - 🎨 Uncompromising code formatter
 - ⚙️ Line length: 100 characters
 - 🔄 Consistent style across codebase
@@ -213,6 +215,7 @@ black path/to/file.py
 **Configuration:** `[tool.mypy]` in `pyproject.toml`
 
 Features:
+
 - 🔍 Static type checking
 - 📝 Catches type errors before runtime
 - ✅ Strict mode enabled
@@ -236,6 +239,7 @@ mypy --verbose .
 **Configuration:** `[tool.pytest.ini_options]` in `pyproject.toml`
 
 Features:
+
 - 🧪 Powerful testing framework
 - 📊 Coverage integration
 - 🔀 Parallel execution support
@@ -270,6 +274,7 @@ pytest -l
 **Configuration:** `[tool.coverage]` in `pyproject.toml`
 
 Features:
+
 - 📊 Branch coverage enabled
 - 📈 HTML and XML reports
 - 🎯 Minimum coverage thresholds
@@ -297,6 +302,7 @@ coverage erase
 **Configuration:** `.pre-commit-config.yaml`
 
 Hooks included:
+
 - ✅ Ruff (linting + formatting)
 - ✅ Black (formatting)
 - ✅ MyPy (type checking)
@@ -333,11 +339,13 @@ git commit --no-verify
 #### CI Pipeline (`.github/workflows/ci.yml`)
 
 Runs on:
+
 - Push to main/master/develop
 - Pull requests
 - Manual trigger
 
 Jobs:
+
 1. **Code Quality**
    - Ruff linting
    - Black formatting check
@@ -365,10 +373,12 @@ Jobs:
 #### Release Pipeline (`.github/workflows/release.yml`)
 
 Runs on:
+
 - GitHub release published
 - Manual trigger
 
 Jobs:
+
 1. **Build**
    - Build wheel and sdist
    - Store artifacts
@@ -525,10 +535,12 @@ pre-commit run --all-files
 1. **Update version** in `pyproject.toml`
 2. **Update CHANGELOG.md**
 3. **Create git tag**
+
    ```bash
    git tag -a v1.0.0 -m "Release v1.0.0"
    git push origin v1.0.0
    ```
+
 4. **Create GitHub release**
    - Triggers automatic PyPI upload
    - Generates signed artifacts

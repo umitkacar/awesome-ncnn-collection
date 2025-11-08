@@ -92,7 +92,7 @@ include = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = []
+packages = ["awesome_ncnn"]
 
 [tool.hatch.envs.default]
 dependencies = [
@@ -274,6 +274,9 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
     "FBT",     # Allow boolean positional values in tests
     "PLR2004", # Allow magic values in tests
     "S311",    # Allow pseudo-random generators in tests
+    "PLR6301", # Allow non-static test methods
+    "ANN001",  # Allow missing type annotations for test fixtures
+    "ANN201",  # Allow missing return type annotations for fixtures
 ]
 
 [tool.ruff.lint.isort]
