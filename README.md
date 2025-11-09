@@ -56,6 +56,8 @@
 - [📚 Tutorials & Documentation](#-tutorials--documentation)
 - [📊 Benchmarks & Performance](#-benchmarks--performance)
 - [📄 Research Papers (2024-2025)](#-research-papers--articles-2024-2025)
+- [🛠️ For Developers](#️-for-developers)
+- [🤝 Contributing](#-contributing)
 
 </details>
 
@@ -923,6 +925,124 @@
 
 <div align="center">
 
+## 🛠️ For Developers
+
+**This repository includes a production-ready Python package with modern development infrastructure!**
+
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)](https://python.org)
+[![Hatch](https://img.shields.io/badge/Built%20with-Hatch-purple?style=for-the-badge)](https://hatch.pypa.io/)
+[![Ruff](https://img.shields.io/badge/Linted%20with-Ruff-red?style=for-the-badge)](https://docs.astral.sh/ruff/)
+[![Tests](https://img.shields.io/badge/Tests-38%2F38%20Passing-success?style=for-the-badge)](https://pytest.org)
+[![Coverage](https://img.shields.io/badge/Coverage-95.65%25-brightgreen?style=for-the-badge)](https://coverage.readthedocs.io/)
+
+</div>
+
+### 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/umitkacar/awesome-ncnn-collection.git
+cd awesome-ncnn-collection
+
+# Install dependencies with Hatch (recommended)
+pip install hatch
+hatch env create
+
+# Or install with pip
+pip install -e ".[dev]"
+
+# Install pre-commit hooks
+pre-commit install
+```
+
+### 🎯 Available Commands
+
+**Quality Checks:**
+
+```bash
+hatch run lint              # Run Ruff linter
+hatch run format            # Format code with Black
+hatch run type-check        # Run MyPy type checker
+hatch run check             # Run all quality checks
+```
+
+**Security:**
+
+```bash
+hatch run audit             # Check dependencies for vulnerabilities
+hatch run security          # Run complete security suite
+```
+
+**Testing:**
+
+```bash
+hatch run test              # Run tests
+hatch run test-cov          # Run tests with coverage
+hatch run test-parallel     # Run tests in parallel (16 workers)
+hatch run test-fast         # Fast parallel tests without coverage
+```
+
+**All-in-One:**
+
+```bash
+hatch run all               # Run checks + security + parallel tests
+make all                    # Same using Makefile
+```
+
+### 📦 Development Stack
+
+| Tool | Purpose | Status |
+|------|---------|--------|
+| 🔨 **[Hatch](https://hatch.pypa.io/)** | Build system & environment management | ✅ Configured |
+| 🔍 **[Ruff](https://docs.astral.sh/ruff/)** | Fast Python linter (100+ rules) | ✅ Enabled |
+| 🎨 **[Black](https://black.readthedocs.io/)** | Code formatter | ✅ Enabled |
+| 🔬 **[MyPy](https://mypy.readthedocs.io/)** | Static type checker (strict mode) | ✅ Enabled |
+| 🧪 **[Pytest](https://docs.pytest.org/)** | Testing framework | ✅ 38 tests |
+| 📊 **[Coverage](https://coverage.readthedocs.io/)** | Code coverage | ✅ 95.65% |
+| ⚡ **[pytest-xdist](https://pytest-xdist.readthedocs.io/)** | Parallel testing | ✅ 16 workers |
+| 🔐 **[uv audit](https://github.com/astral-sh/uv)** | Security scanning | ✅ No vulnerabilities |
+| 🎣 **[pre-commit](https://pre-commit.com/)** | Git hooks automation | ✅ 40+ hooks |
+
+### 📊 Quality Metrics
+
+```
+✅ Tests:        38/38 passing (100% pass rate)
+✅ Coverage:     95.65% (exceeds 80% target)
+✅ Type Safety:  No issues (MyPy strict mode)
+✅ Linting:      All checks passed (Ruff)
+✅ Formatting:   All files formatted (Black)
+✅ Security:     No vulnerabilities (uv audit)
+✅ Hooks:        40+ pre-commit checks passing
+```
+
+### 🔐 Security Features
+
+- **Dependency Scanning**: `uv audit` checks for vulnerabilities on every push
+- **Secret Detection**: Prevents accidental commit of API keys/passwords
+- **Security Linting**: Bandit detects common security issues
+- **Reproducible Builds**: `uv.lock` ensures consistent dependencies
+
+### 📚 Documentation
+
+- **[CHANGELOG.md](CHANGELOG.md)** - Detailed version history and changes
+- **[LESSONS-LEARNED.md](LESSONS-LEARNED.md)** - Technical insights and best practices
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
+- **[DEVELOPMENT.md](DEVELOPMENT.md)** - Development workflow guide
+
+### 🎓 Learn More
+
+Check out **[LESSONS-LEARNED.md](LESSONS-LEARNED.md)** for:
+
+- Technical challenges & solutions
+- Tool selection rationale
+- Performance optimizations
+- Best practices discovered
+- Common pitfalls & how to avoid them
+
+---
+
+<div align="center">
+
 ## 🤝 Contributing
 
 We welcome contributions! 🎉
@@ -933,6 +1053,10 @@ We welcome contributions! 🎉
 - 🍴 Fork and submit PRs
 - 🐛 Report issues
 - 💡 Suggest new resources
+
+**Development setup:** See [🛠️ For Developers](#️-for-developers) section above
+
+**Guidelines:** Read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions
 
 </div>
 
