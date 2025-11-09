@@ -7,7 +7,7 @@ name = "awesome-ncnn-collection"
 version = "1.0.0"
 description = "A curated collection of high-quality NCNN resources, projects, and implementations for mobile and edge AI deployment"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 license = {text = "MIT"}
 keywords = [
     "ncnn",
@@ -33,11 +33,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Typing :: Typed",
@@ -119,17 +119,25 @@ check = [
     "type-check",
 ]
 
+# Security
+audit = "uv pip check"
+security = [
+    "audit",
+]
+
 # Testing
 test = "pytest {args}"
 test-cov = "pytest --cov --cov-report=term-missing {args}"
-test-parallel = "pytest -n auto {args}"
+test-parallel = "pytest -n auto --cov --cov-report=term-missing {args}"
+test-fast = "pytest -n auto {args}"
 cov-report = "coverage report"
 cov-html = "coverage html"
 
 # All quality checks + tests
 all = [
     "check",
-    "test-cov",
+    "security",
+    "test-parallel",
 ]
 
 # Pre-commit
@@ -153,7 +161,7 @@ serve = "mkdocs serve --dev-addr localhost:8000"
 # ==============================================================================
 
 [tool.ruff]
-target-version = "py38"
+target-version = "py39"
 line-length = 100
 indent-width = 4
 

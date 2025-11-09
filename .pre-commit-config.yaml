@@ -35,7 +35,6 @@ repos:
       # File format checks
   - id: check-yaml
     name: Check YAML syntax
-    args: [--safe]
   - id: check-toml
     name: Check TOML syntax
   - id: check-json
@@ -123,6 +122,23 @@ repos:
   # ============================================================================
   # Security & Code Quality
   # ============================================================================
+- repo: https://github.com/astral-sh/uv-pre-commit
+  rev: 0.8.17
+  hooks:
+  - id: uv-lock
+    name: Check uv lock file
+    stages: [pre-commit]
+
+- repo: local
+  hooks:
+  - id: uv-audit
+    name: Run uv audit for security vulnerabilities
+    entry: uv
+    args: [pip, check]
+    language: system
+    pass_filenames: false
+    stages: [pre-push]
+
 - repo: https://github.com/PyCQA/bandit
   rev: 1.7.6
   hooks:
